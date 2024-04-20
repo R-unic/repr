@@ -1,17 +1,17 @@
 {
   "name": "@rbxts/repr",
   "version": "1.0.0",
-  "main": "out/init.lua",
+  "main": "src/init.lua",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "runicly",
   "license": "ISC",
   "description": "",
-  "types": "out/index.d.ts",
+  "types": "src/index.d.ts",
   "files": [
     "out",
     "!**/*.tsbuildinfo"
