@@ -1,0 +1,27 @@
+{
+  "name": "@rbxts/repr",
+  "version": "1.0.0",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.1.0-types.1",
+    "@rbxts/types": "^1.0.769",
+    "typescript": "^5.4.5"
+  }
+}
