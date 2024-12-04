@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/repr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "out/init.lua",
   "scripts": {
     "build": "rbxtsc",
@@ -19,7 +19,7 @@
   "author": "runicly",
   "license": "ISC",
   "description": "Typings for Ozzypig's repr module",
-  "types": "src/index.d.ts",
+  "types": "out/index.d.ts",
   "files": [
     "out",
     "!**/*.tsbuildinfo"
