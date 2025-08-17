@@ -377,4 +377,4 @@ local function repr(value: unknown, reprSettings: ReprOptions): string
 	end
 end
 
-return repr
+return { default = repr }
