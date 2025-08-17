@@ -1,4 +1,4 @@
-interface ReprOptions {
+export interface ReprOptions {
   readonly spaces?: number;
   readonly tabs?: boolean;
   readonly pretty?: boolean;
@@ -11,4 +11,4 @@ interface ReprOptions {
 
 declare function repr(value: unknown, options?: ReprOptions): string;
 
-export = repr;
+export default repr;
